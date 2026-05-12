@@ -24,7 +24,7 @@ def show_expenses_menu():
 
 def get_budget(income, expenses):
     return income - get_total_expenses(expenses)
-
+clear()
 while True:
     choice = get_choices()
     if choice == '1':
@@ -50,7 +50,7 @@ while True:
 
 
     elif choice == '2':
-            print("What would you like to change? \n1. Rent\n2. Groceries\n3. Utilities\n4. Others\n5. Summary of expenses")
+            print("What would you like to change? \n1. Rent\n2. Groceries\n3. Utilities\n4. Others\n5. Summary of expenses\n6. Main Menu")
 
             while True:
 
